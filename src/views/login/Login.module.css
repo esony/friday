@@ -1,0 +1,20 @@
+.view {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40vh;
+}
+.button {
+  color: #1f1f1f;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background: #a6da00;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  line-height: 48px;
+}

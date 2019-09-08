@@ -1,0 +1,35 @@
+.sidebar {
+  position: absolute;
+  top: 50px;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  border-top: 2px solid #1b1b1b;
+  background: #1f1f1f;
+  transition: 0.3s;
+  z-index: 10000;
+}
+
+.open {
+  left: 0;
+}
+
+.row {
+  color: gray;
+  height: 40px;
+  padding: 0 17px;
+  line-height: 40px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.row:hover {
+  background: #252525;
+  cursor: pointer;
+}
+
+.rowText {
+  margin-left: 15px;
+}

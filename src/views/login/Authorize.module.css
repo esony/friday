@@ -1,0 +1,8 @@
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  margin: auto;
+  color: #a6da00;
+}

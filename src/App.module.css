@@ -1,0 +1,10 @@
+.view {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #151515;
+}
+
+.route {
+  flex: 2;
+}
