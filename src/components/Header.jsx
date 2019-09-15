@@ -22,7 +22,7 @@ function Header() {
         className={sideBarOpen ? css.overlay : undefined}
         onClick={() => toggleSideBar()}
       />
-      <img src="digiahub.png" className={css.hubLogo} />
+      <img src="digiahub.png" alt="" className={css.hubLogo} />
     </div>
   );
 }
