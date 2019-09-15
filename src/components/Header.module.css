@@ -30,6 +30,7 @@
 
 .overlay {
   position: fixed;
+  top: 50px;
   height: 100%;
   width: 100%;
 }
