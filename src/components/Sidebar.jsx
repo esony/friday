@@ -2,6 +2,7 @@ import React from "react";
 import css from "./Sidebar.module.css";
 import classNames from "classnames";
 import { MdSearch, MdQueueMusic, MdFormatListBulleted } from "react-icons/md";
+import { IoIosLogIn } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const Sidebar = ({ isOpen, toggleSideBar }) => {
@@ -18,6 +19,10 @@ const Sidebar = ({ isOpen, toggleSideBar }) => {
       <Link to="/playlists" className={css.row} onClick={() => toggleSideBar()}>
         <MdFormatListBulleted />
         <div className={css.rowText}>Playlists</div>
+      </Link>
+      <Link to="/login" className={css.row} onClick={() => toggleSideBar()}>
+        <IoIosLogIn />
+        <div className={css.rowText}>Login</div>
       </Link>
     </div>
   );
