@@ -6,5 +6,6 @@
 }
 
 .route {
+  padding-top: 50px;
   flex: 2;
 }

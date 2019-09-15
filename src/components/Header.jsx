@@ -7,10 +7,10 @@ function Header() {
   const [sideBarOpen, toggleSideBar] = useState(false);
 
   return (
-    <div>
+    <div id="Header">
       <div className={css.header}>
         <div
-          className={css.sidebar}
+          className={css.sidebarButton}
           onClick={() => toggleSideBar(!sideBarOpen)}
         >
           <IoMdMenu />
@@ -18,6 +18,10 @@ function Header() {
         <div className={css.logo}>FRIDAY</div>
       </div>
       <SideBar isOpen={sideBarOpen} toggleSideBar={toggleSideBar} />
+      <div
+        className={sideBarOpen ? css.overlay : undefined}
+        onClick={() => toggleSideBar()}
+      />
     </div>
   );
 }
