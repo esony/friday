@@ -1,13 +1,16 @@
 .sidebar {
   position: fixed;
   top: 50px;
-  left: -300px;
-  width: 300px;
-  height: 100%;
+  bottom: 0;
+  left: -250px;
+  width: 250px;
   border-top: 2px solid #1b1b1b;
   background: #1f1f1f;
   transition: 0.3s;
   z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .open {
@@ -32,4 +35,19 @@
 
 .rowText {
   margin-left: 15px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  letter-spacing: 1px;
+  user-select: none;
+}
+.spotifyLogo {
+  margin: 20px auto;
+  height: 40px;
 }
